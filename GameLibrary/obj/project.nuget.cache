@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "edJeMrE4OlZu+wiLdMQeBXzIxYZqQbBkA7POAobujnvIUhgHWcYEfebEh/SB2cJdHZm2pxZPg9X79zFlzUmqmQ==",
+  "dgSpecHash": "KxlMcVbxWv0tAIyXQQKJjpUGD2Gjz6tDAAPPXGgFyBmDBEpqfB8uDqVXclSP6FACUlM1Rz9ylzmV4ZZcOn9z0g==",
   "success": true,
-  "projectFilePath": "D:\\C#\\CardGame\\GameLibrary\\GameLibrary.csproj",
+  "projectFilePath": "D:\\Repository\\CardGame\\GameLibrary\\GameLibrary.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

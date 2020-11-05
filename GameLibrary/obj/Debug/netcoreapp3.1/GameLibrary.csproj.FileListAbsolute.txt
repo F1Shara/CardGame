@@ -7,3 +7,12 @@ D:\C#\CardGame\GameLibrary\obj\Debug\netcoreapp3.1\GameLibrary.csproj.CoreCompil
 D:\C#\CardGame\GameLibrary\obj\Debug\netcoreapp3.1\GameLibrary.dll
 D:\C#\CardGame\GameLibrary\obj\Debug\netcoreapp3.1\GameLibrary.pdb
 D:\C#\CardGame\GameLibrary\obj\Debug\netcoreapp3.1\GameLibrary.csprojAssemblyReference.cache
+D:\Repository\CardGame\GameLibrary\bin\Debug\netcoreapp3.1\GameLibrary.deps.json
+D:\Repository\CardGame\GameLibrary\bin\Debug\netcoreapp3.1\GameLibrary.dll
+D:\Repository\CardGame\GameLibrary\bin\Debug\netcoreapp3.1\GameLibrary.pdb
+D:\Repository\CardGame\GameLibrary\obj\Debug\netcoreapp3.1\GameLibrary.csprojAssemblyReference.cache
+D:\Repository\CardGame\GameLibrary\obj\Debug\netcoreapp3.1\GameLibrary.AssemblyInfoInputs.cache
+D:\Repository\CardGame\GameLibrary\obj\Debug\netcoreapp3.1\GameLibrary.AssemblyInfo.cs
+D:\Repository\CardGame\GameLibrary\obj\Debug\netcoreapp3.1\GameLibrary.dll
+D:\Repository\CardGame\GameLibrary\obj\Debug\netcoreapp3.1\GameLibrary.pdb
+D:\Repository\CardGame\GameLibrary\obj\Debug\netcoreapp3.1\GameLibrary.csproj.CoreCompileInputs.cache
