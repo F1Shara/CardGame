@@ -1,0 +1,40 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CardGame/1.0.0": {
+        "dependencies": {
+          "GameLibrary": "1.0.0",
+          "GameLibrary.Reference": "1.0.0.0"
+        },
+        "runtime": {
+          "CardGame.dll": {}
+        }
+      },
+      "GameLibrary.Reference/1.0.0.0": {
+        "runtime": {
+          "GameLibrary.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CardGame/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GameLibrary.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
