@@ -7,6 +7,7 @@ namespace CardGame
 {
     public class GameController
     {
+        // Data about all game items (player, deck, card, etc)
         private GameField field;
         const int HandSize = 6;
         private void SortDeck(List<Card> deck)
@@ -22,6 +23,7 @@ namespace CardGame
                 field.deck[n] = value;
             }
         }
+        // Create new game
         protected internal void StartGame()
         {          
 
@@ -32,19 +34,20 @@ namespace CardGame
 
             field = new GameField(player1Name, player2Name);
             SortDeck(field.deck);
-
+            
+            // Give full hand to both player
             foreach (var item in field.players)
             {
-                GetCards(6, item);
+                GetCards(HandSize, item);
             }
             CheckTurn(true);
             DisplayTable();
-
         }
         private void DisplayDeckCount()
         {
             Console.Write($"Колода: {field.deck.Count}\t");            
         }
+        // Display all game data
         private void DisplayTable()
         {
             Console.Clear();
@@ -79,6 +82,7 @@ namespace CardGame
             }
             player1 = true;
         }
+        // Add card to hand from dack
         private void GetCards(int count, Player player)
         {
            
@@ -90,7 +94,8 @@ namespace CardGame
                     field.deck.RemoveAt(0);
                 }                
             }            
-        }
+        }        
+        // Switch active player
         private void CheckTurn()
         {
                 foreach (var item in field.players)
@@ -98,6 +103,7 @@ namespace CardGame
                     item.Turn = !item.Turn;
                 }
         }
+        // Switch active player
         private void CheckTurn(bool firstTurn)
         {
             if (firstTurn)
@@ -126,6 +132,7 @@ namespace CardGame
                 }
             }
         }
+        // Main method in which the game take place 
         protected internal void Play()
         {
             bool game = true;
@@ -137,14 +144,15 @@ namespace CardGame
             {
                 foreach (var item in field.players)
                 {
+                    // Active player move
                     if (item.Turn)
                     {
+                        // Throws up or fights back
                         if (item.Action)
                         {
                             if (item.Table.Count == 0)
                             {
-                                console = Console.ReadLine();
-                                //if (CheckCorrectSymbol(console, item))
+                                console = Console.ReadLine();                               
                                 {
                                     cardIndex = Convert.ToInt32(console);
                                     item.Table.Add(item.Hand[cardIndex - 1]);
@@ -160,14 +168,13 @@ namespace CardGame
                                 console = Console.ReadLine();
                                 if (console == " ")
                                 {
-                                    ConverAvtionStatus();
+                                    ConverActionStatus();
                                     LightsOut();
                                     CheckTurn();
                                     DisplayTable();
                                 }
                                 else
-                                {
-                                    //if (CheckCorrectSymbol(console, item))
+                                {                                    
                                     {
                                         cardIndex = Convert.ToInt32(console);
                                         if (field.players[0].GetTableNames().Contains(item.Hand[cardIndex - 1].Rank.Name) || field.players[1].GetTableNames().Contains(item.Hand[cardIndex - 1].Rank.Name))
@@ -193,8 +200,7 @@ namespace CardGame
                                 DisplayTable();
                             }
                             else
-                            {
-                                //if (CheckCorrectSymbol(console, item))
+                            {                                
                                 {
                                     int index = Convert.ToInt32(console);
                                     if (currentCardValue < item.Hand[index - 1].Rank.Value && currentCardSuit == item.Hand[index - 1].Suit)
@@ -213,6 +219,7 @@ namespace CardGame
                 }
             }
         }
+        // Reset the table and draw card to a full hand
         private void LightsOut()
         {
             foreach (var item in field.players)
@@ -222,6 +229,7 @@ namespace CardGame
                     GetCards(HandSize - item.Hand.Count, item);
             }
         }
+        // Add all card on table to player hand
         private void TakeTable(Player player)
         {            
             foreach (var item in field.players)
@@ -237,22 +245,13 @@ namespace CardGame
             }
            
         }
-        private void ConverAvtionStatus()
+        // Switch throws player 
+        private void ConverActionStatus()
         {
             foreach (var item in field.players)
             {
                 item.Action = !item.Action;
             }
-        }
-        //private bool CheckCorrectSymbol(string symbol, Player player)
-        //{
-        //    int res = 0;
-        //    bool isInt = Int32.TryParse(symbol, out res);
-        //    if(player.Hand.Count >= res)
-        //    {
-        //        return true;
-        //    }           
-        //    return false;
-        //}
+        }       
     }
 }

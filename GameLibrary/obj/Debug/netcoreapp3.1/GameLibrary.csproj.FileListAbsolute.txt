@@ -16,3 +16,12 @@ D:\Repository\CardGame\GameLibrary\obj\Debug\netcoreapp3.1\GameLibrary.AssemblyI
 D:\Repository\CardGame\GameLibrary\obj\Debug\netcoreapp3.1\GameLibrary.dll
 D:\Repository\CardGame\GameLibrary\obj\Debug\netcoreapp3.1\GameLibrary.pdb
 D:\Repository\CardGame\GameLibrary\obj\Debug\netcoreapp3.1\GameLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Msnihur\CardGame\GameLibrary\bin\Debug\netcoreapp3.1\GameLibrary.deps.json
+C:\Users\Msnihur\CardGame\GameLibrary\bin\Debug\netcoreapp3.1\GameLibrary.dll
+C:\Users\Msnihur\CardGame\GameLibrary\bin\Debug\netcoreapp3.1\GameLibrary.pdb
+C:\Users\Msnihur\CardGame\GameLibrary\obj\Debug\netcoreapp3.1\GameLibrary.csprojAssemblyReference.cache
+C:\Users\Msnihur\CardGame\GameLibrary\obj\Debug\netcoreapp3.1\GameLibrary.AssemblyInfoInputs.cache
+C:\Users\Msnihur\CardGame\GameLibrary\obj\Debug\netcoreapp3.1\GameLibrary.AssemblyInfo.cs
+C:\Users\Msnihur\CardGame\GameLibrary\obj\Debug\netcoreapp3.1\GameLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Msnihur\CardGame\GameLibrary\obj\Debug\netcoreapp3.1\GameLibrary.dll
+C:\Users\Msnihur\CardGame\GameLibrary\obj\Debug\netcoreapp3.1\GameLibrary.pdb

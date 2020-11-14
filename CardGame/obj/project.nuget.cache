@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "oKl6i4/GI0twEJTPtg+eWB6Cj+FqV0vqr5G18KVFiCDpYTie5xP9s0n82N6Q9mJXUqcbgAEVX55vRwEtfcya3g==",
+  "dgSpecHash": "d16506V/KD0za84UgaW5NZfwXJxMDubYvRkSMXu162QMX8Q1LaTkdfjgqmYO7Hg86Gwg6o43NBMGK9sbEc1Yng==",
   "success": true,
-  "projectFilePath": "D:\\Repository\\CardGame\\CardGame\\CardGame.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Msnihur\\CardGame\\CardGame\\CardGame.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Msnihur\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Msnihur\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Msnihur\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.8\\microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512",
+    "C:\\Users\\Msnihur\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.9\\microsoft.netcore.app.host.win-x64.3.1.9.nupkg.sha512"
+  ],
   "logs": []
 }

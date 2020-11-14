@@ -13,9 +13,9 @@ namespace GameLibrary
             players.Add(new Player(name2));
 
         }
-        public List<Card> deck = new List<Card>();
+        public List<Card> deck = new List<Card>();        
         public List<Player> players = new List<Player>();        
-        public DeckBuilder deckBuilder = new DeckBuilder();        
-        
+        public DeckBuilder deckBuilder = new DeckBuilder();    
+                
     }
 }
