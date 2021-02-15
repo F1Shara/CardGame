@@ -19,6 +19,11 @@ namespace GameLibrary
         public bool Turn { get; set; }
         public string Name { get; set; }
         public bool Action { get; set; }
+        public int DefaultHandSize
+        {
+            get { return 6; }            
+        }
+
 
         public void DisplayHand()
         {

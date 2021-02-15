@@ -7,7 +7,7 @@ namespace GameLibrary
     public class Rank
     {
         public string Name { get; private set; }
-        public int Value { get; private set; }
+        public int Value { get;  set; }
 
         public Rank(string n, int v)
         {
