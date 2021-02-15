@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repository\\CardGame\\CardGame\\CardGame.csproj": {}
+    "X:\\MSnihur\\CardGame\\CardGame\\CardGame.csproj": {}
   },
   "projects": {
-    "D:\\Repository\\CardGame\\CardGame\\CardGame.csproj": {
+    "X:\\MSnihur\\CardGame\\CardGame\\CardGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repository\\CardGame\\CardGame\\CardGame.csproj",
+        "projectUniqueName": "X:\\MSnihur\\CardGame\\CardGame\\CardGame.csproj",
         "projectName": "CardGame",
-        "projectPath": "D:\\Repository\\CardGame\\CardGame\\CardGame.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Repository\\CardGame\\CardGame\\obj\\",
+        "projectPath": "X:\\MSnihur\\CardGame\\CardGame\\CardGame.csproj",
+        "packagesPath": "C:\\Users\\Msnihur\\.nuget\\packages\\",
+        "outputPath": "X:\\MSnihur\\CardGame\\CardGame\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Msnihur\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,9 +26,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Repository\\CardGame\\GameLibrary\\GameLibrary.csproj": {
-                "projectPath": "D:\\Repository\\CardGame\\GameLibrary\\GameLibrary.csproj"
+              "X:\\MSnihur\\CardGame\\GameLibrary\\GameLibrary.csproj": {
+                "projectPath": "X:\\MSnihur\\CardGame\\GameLibrary\\GameLibrary.csproj"
               }
             }
           }
@@ -41,6 +42,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -56,21 +58,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Repository\\CardGame\\GameLibrary\\GameLibrary.csproj": {
+    "X:\\MSnihur\\CardGame\\GameLibrary\\GameLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repository\\CardGame\\GameLibrary\\GameLibrary.csproj",
+        "projectUniqueName": "X:\\MSnihur\\CardGame\\GameLibrary\\GameLibrary.csproj",
         "projectName": "GameLibrary",
-        "projectPath": "D:\\Repository\\CardGame\\GameLibrary\\GameLibrary.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Repository\\CardGame\\GameLibrary\\obj\\",
+        "projectPath": "X:\\MSnihur\\CardGame\\GameLibrary\\GameLibrary.csproj",
+        "packagesPath": "C:\\Users\\Msnihur\\.nuget\\packages\\",
+        "outputPath": "X:\\MSnihur\\CardGame\\GameLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Msnihur\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,6 +84,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -93,6 +96,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -108,7 +112,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
